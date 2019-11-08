@@ -34,6 +34,8 @@
 		<java.version>1.8</java.version>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
+		<hazelcast-client>3.7.1</hazelcast-client>
+		<maven-compiler-plugin>3.5.1</maven-compiler-plugin>
 	</properties>
 
 	<dependencies>
@@ -41,7 +43,7 @@
 		<dependency>
 			<groupId>com.hazelcast</groupId>
 			<artifactId>hazelcast-client</artifactId>
-			<version>3.7.1</version>
+			<version>${hazelcast-client}</version>
 		</dependency>
 
 		<dependency>
@@ -76,7 +78,7 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.5.1</version>
+				<version>${maven-compiler-plugin}</version>
 			</plugin>
 		
 			<plugin>
