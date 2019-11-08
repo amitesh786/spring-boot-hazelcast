@@ -43,4 +43,3 @@
 ### Another option
 
 * Run `mvn-version.sh` for clean install package and update version.
-
