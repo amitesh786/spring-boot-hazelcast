@@ -32,6 +32,7 @@
 
 `mvn clean install package -X`
 
-#### Run Java Application
+#### Run Java Application - Hazelcast Node
 
 * Run as [`HazelcastMain.java`]
+

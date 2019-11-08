@@ -9,7 +9,7 @@
 
 	<packaging>pom</packaging>
 
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 
 	<name>Spring Boot Hazelcast</name>
 	<description>Spring Boot implement Hazelcast</description>
@@ -36,6 +36,9 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<hazelcast-client>3.7.1</hazelcast-client>
 		<maven-compiler-plugin>3.5.1</maven-compiler-plugin>
+		
+		<hazelcast-node>1.0.0</hazelcast-node>
+		<spring-hazelcast>1.0.0</spring-hazelcast>
 	</properties>
 
 	<dependencies>

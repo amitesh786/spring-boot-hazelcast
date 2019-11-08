@@ -7,12 +7,12 @@
 	<parent>
 		<artifactId>spring-hazelcast-project</artifactId>
 		<groupId>org.springhazelcast</groupId>
-		<version>1.0-SNAPSHOT</version>
+		<version>1.0.0</version>
 	</parent>
 
 	<groupId>com.hazelcastnode</groupId>
 	<artifactId>hazelcast-node</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>${hazelcast-node}</version>
 
 	<name>Hazelcast</name>
 	<description>Demo how to use hazelcast</description>
