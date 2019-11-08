@@ -32,7 +32,15 @@
 
 `mvn clean install package -X`
 
+### Maven Build Package
+
+`mvn clean build`
+
 #### Run Java Application - Hazelcast Node
 
 * Run as [`HazelcastMain.java`]
+
+### Another option
+
+* Run `mvn-version.sh` for clean install package and update version.
 
