@@ -9,7 +9,7 @@
 
 	<packaging>pom</packaging>
 
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 
 	<name>Spring Boot Hazelcast</name>
 	<description>Spring Boot implement Hazelcast</description>
@@ -27,18 +27,16 @@
 		<relativePath />
 	</parent>
 
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
-		<hazelcast-client>3.7.1</hazelcast-client>
-		<maven-compiler-plugin>3.5.1</maven-compiler-plugin>
 		
-		<hazelcast-node>1.0.0</hazelcast-node>
-		<spring-hazelcast>1.0.0</spring-hazelcast>
+		<hazelcast-client>3.12.4</hazelcast-client>
+		<maven-compiler-plugin>3.8.1</maven-compiler-plugin>
+		
 	</properties>
 
 	<dependencies>
