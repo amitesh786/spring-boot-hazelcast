@@ -1,0 +1,25 @@
+<hazelcast
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.hazelcast.com/schema/config
+                               http://www.hazelcast.com/schema/config/hazelcast-config-3.6.xsd"
+	xmlns="http://www.hazelcast.com/schema/config">
+
+	<group>
+		<name>MyCluster</name>
+		<password>MyCluster</password>
+	</group>
+
+	<!--  we disable the default multicast discover mechanism and 
+	enable the TCP enabled hazelcast node discovery mechanism for the cluster.
+	
+	<network>
+		<join>
+			<multicast enabled="false" />
+			<tcp-ip enabled="true">
+				<member>192.168.10.10</member>
+				<member>192.168.10.12</member>
+			</tcp-ip>
+		</join>
+	</network> -->
+	
+</hazelcast>
