@@ -20,7 +20,7 @@ public class SpringBootJdbcApplication {
 	EmployeeService employeeService;
 
 	public static void main(String[] args) {
-		
+
 		ApplicationContext context = SpringApplication.run(SpringBootJdbcApplication.class, args);
 		EmployeeService employeeService = context.getBean(EmployeeService.class);
 

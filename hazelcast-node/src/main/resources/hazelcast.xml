@@ -9,17 +9,9 @@
 		<password>MyCluster</password>
 	</group>
 
-	<!--  we disable the default multicast discover mechanism and 
-	enable the TCP enabled hazelcast node discovery mechanism for the cluster.
-	
-	<network>
-		<join>
-			<multicast enabled="false" />
-			<tcp-ip enabled="true">
-				<member>192.168.10.10</member>
-				<member>192.168.10.12</member>
-			</tcp-ip>
-		</join>
-	</network> -->
-	
+	<!-- we disable the default multicast discover mechanism and enable the 
+		TCP enabled hazelcast node discovery mechanism for the cluster. <network> 
+		<join> <multicast enabled="false" /> <tcp-ip enabled="true"> <member>192.168.10.10</member> 
+		<member>192.168.10.12</member> </tcp-ip> </join> </network> -->
+
 </hazelcast>
