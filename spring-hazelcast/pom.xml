@@ -7,12 +7,12 @@
 	<parent>
 		<artifactId>spring-hazelcast-project</artifactId>
 		<groupId>org.springhazelcast</groupId>
-		<version>2.0.0</version>
+		<version>2.0.1-SNAPSHOT</version>
 	</parent>
 
 	<groupId>com.springhazelcast</groupId>
 	<artifactId>spring-hazelcast</artifactId>
-	<version>2.0.0</version>
+	<version>2.0.1-SNAPSHOT</version>
 
 	<name>Spring Boot Hazelcast</name>
 	<description>Implement Spring Boot project and integrate with Hazelcast</description>
