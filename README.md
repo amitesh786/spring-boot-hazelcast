@@ -3,6 +3,7 @@
 * Hazelcast is a radical, new approach towards data that was designed from the ground up around distribution. 
 
 * It embraces a new, scalable way of thinking in that data should be shared for resilience and performance while allowing us to configure the trade-offs surrounding consistency, as the data requirements dictate. Hazelcast is a distributed, highly available and scalable.
+<hr />
 
 ### Why hazelcast is required
 
@@ -11,6 +12,7 @@
 * There are cache consistency issues.
 
 * It embraces a new, scalable way of thinking in that data should be shared for resilience and performance.
+<hr />
 
 ### Features of hazelcast
 
@@ -28,11 +30,21 @@
 
 * A Java Map API accesses the distributed key-value store.
 
+<hr />
+
+
+## Spring Boot + Integrate with Hazelcast
+
+* Implement Spring Boot project and integrate with Hazelcast
+<hr />
+
+### Build 
+
 #### Maven Clean Install Package
 
 `mvn clean install package -X`
 
-### Maven Build Package
+#### Maven Build Package
 
 `mvn clean build`
 
@@ -40,6 +52,12 @@
 
 * Run as [`HazelcastMain.java`]
 
+#### Run Java Application - Spring integrate hazelcast
+
+* Run as [`SpringBootJdbcApplication.java`]
+
 ### Another option
 
 * Run `mvn-version.sh` for clean install package and update version.
+
+<hr />
