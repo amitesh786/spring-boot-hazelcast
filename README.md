@@ -32,7 +32,6 @@
 
 <hr />
 
-
 ## Spring Boot + Integrate with Hazelcast
 
 * Implement Spring Boot project and integrate with Hazelcast
