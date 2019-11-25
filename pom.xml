@@ -36,11 +36,9 @@
 
 		<hazelcast-client>3.12.4</hazelcast-client>
 		<maven-compiler-plugin>3.8.1</maven-compiler-plugin>
-
 	</properties>
 
 	<dependencies>
-
 		<dependency>
 			<groupId>com.hazelcast</groupId>
 			<artifactId>hazelcast-client</artifactId>
@@ -72,7 +70,6 @@
 			<groupId>com.hazelcast</groupId>
 			<artifactId>hazelcast-spring</artifactId>
 		</dependency>
-
 	</dependencies>
 
 	<build>
